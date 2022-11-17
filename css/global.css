@@ -1,0 +1,159 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* header */
+.container {
+  width: 1029px;
+  margin: 0 auto;
+}
+
+header .contact {
+  width: 64px;
+  height: 19px;
+  font-size: 14px;
+  margin-left: 35px;
+}
+header .contact:hover {
+  border: 1.5px solid blue;
+}
+header .contactText {
+  width: 331px;
+  height: 112px;
+  font-size: 42px;
+  margin-left: 35px;
+}
+
+.contactText:hover {
+  border: 1.5px solid blue;
+}
+
+.bannerConteiner {
+  display: flex;
+  margin-top: 54px;
+}
+.bannerConteiner .baner {
+  font-size: 13px;
+  width: 720px;
+  height: 288px;
+  background-color: #E8E8E8;
+  margin-left: 35px;
+}
+.bannerConteiner .form {
+  margin-left: 22px;
+  width: 300px;
+}
+.bannerConteiner .form .formitem {
+  width: 100%;
+  height: 60px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.bannerConteiner .form .formButon {
+  width: 100%;
+  background-color: #5863F8;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contactsection {
+  width: 1029px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 241px;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+.contactsection .contactItems {
+  width: 180px;
+  margin-left: 100px;
+  text-align: center;
+}
+.contactsection .email {
+  color: gray;
+  font-size: 14px;
+}
+
+.contactText1 {
+  width: 476px;
+  height: 112px;
+  font-size: 42px;
+  margin-left: 35px;
+}
+
+.photos {
+  width: 1029px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 241px;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+.photos .photosItems {
+  margin-left: 40px;
+  margin-top: 35px;
+}/*# sourceMappingURL=global.css.map */
